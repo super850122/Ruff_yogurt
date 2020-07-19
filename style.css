@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 4000px;
+}
+
+section {
+  height: 100vh;
+}
+
+#home {
+  position: relative;
+}
+
+#home #logo {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+}
+
+#home #banner {
+  background-image: url(./img/ihssan-rami-azouagh-5-olsg-hlkn-cc-unsplash.png);
+  height: 100vh;
+  background-size: cover;
+  background-position-y: center;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  padding: 0 10% 0 10%;
+  font-size: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
