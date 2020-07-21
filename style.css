@@ -34,7 +34,7 @@ section {
   background-position-y: center;
 }
 
-nav {
+#home nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[6];
@@ -49,7 +49,7 @@ nav {
           transform: translateY(-100px);
 }
 
-nav a {
+#home nav a {
   color: #004060;
   text-decoration: none;
 }
@@ -57,6 +57,7 @@ nav a {
 #about #hello {
   display: block;
   margin-top: 0;
+  height: 45vh;
 }
 
 #about .parallax {
@@ -67,6 +68,5 @@ nav a {
   background-size: cover;
   display: table;
   background-attachment: fixed;
-  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */

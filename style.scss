@@ -32,31 +32,33 @@ section{
         
     }
     
+    nav {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        text-align: center;
+        padding: 0 10% 0 10%;
+        font-size: 20px;
+        // 定位：黏住
+        position: sticky;
+        // 上方：位置
+        top: 100px;
+        transform: translateY(-100px);
+        a {
+            color:#004060;
+            text-decoration: none;
+        }
+    }
     
 }
 
-nav {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    text-align: center;
-    padding: 0 10% 0 10%;
-    font-size: 20px;
-    // 定位：黏住
-    position: sticky;
-    // 上方：位置
-    top: 100px;
-    transform: translateY(-100px);
-    a {
-        color:#004060;
-        text-decoration: none;
-    }
-}
 
 #about {
 
     #hello{
         display: block;
         margin-top: 0;
+        height: 45vh;
+        
     }
     
     
@@ -68,7 +70,7 @@ nav {
        background-size: cover;
        display: table;
        background-attachment: fixed;
-       margin-top: 0;
+      
     }
 
 
