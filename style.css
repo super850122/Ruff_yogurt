@@ -34,7 +34,7 @@ section {
   background-position-y: center;
 }
 
-#home nav {
+nav {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[6];
@@ -49,7 +49,7 @@ section {
           transform: translateY(-100px);
 }
 
-#home nav a {
+nav a {
   color: #004060;
   text-decoration: none;
 }
